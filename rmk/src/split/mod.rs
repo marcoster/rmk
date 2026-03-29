@@ -13,6 +13,8 @@ pub(crate) mod driver;
 pub mod peripheral;
 #[cfg(feature = "rp2040")]
 pub mod rp;
+#[cfg(feature = "nrf52840")]
+pub mod nrf;
 #[cfg(not(feature = "_ble"))]
 pub mod serial;
 

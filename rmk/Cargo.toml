@@ -63,6 +63,7 @@ embassy-nrf = { version = "0.10", features = [
     "unstable-pac",
     "time",
 ], optional = true }
+nrf-pac = { version = "0.3", optional = true, features = ["nrf52840"]}
 
 # RP2040 dependencies
 embassy-rp = { version = "0.10", optional = true }

@@ -172,7 +172,7 @@ rp2040 = [
 ]
 
 ## Enable feature if you're using Adafruit nRF52 bootloader and want bootloader jumping key
-adafruit_bl = ["_nrf_ble"]
+adafruit_bl = ["dep:nrf-pac"]
 
 ## Internal feature that indicates no USB is used, this feature will be auto-activated for some chips
 _no_usb = []

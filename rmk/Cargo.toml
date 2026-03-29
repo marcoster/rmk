@@ -178,7 +178,8 @@ _no_usb = []
 
 ## Enable features to use nRF52840 without BLE
 nrf52840 = [
-    "dep:embassy-nrf"
+    "dep:embassy-nrf",
+    "dep:nrf-pac"
 ]
 
 #! ### BLE feature flags
